@@ -68,3 +68,9 @@ select firstname,city
 	UPDATE AddressBookTable SET Name = 'ad2' WHERE FirstName='RAHUL'
 	UPDATE AddressBookTable SET Name = 'ad3' WHERE FirstName='VIKASH' 
 	UPDATE AddressBookTable SET Name = 'ad4' WHERE FirstName='RISHI'
+
+	--UC10
+	select COUNT(FirstName) 
+	From AddressBookTable 
+	Where Type = 'Family' 
+
