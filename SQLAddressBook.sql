@@ -42,3 +42,13 @@ update AddressBookTable
 	from AddressBookTable
 	where City = 'MUMBAI' 
 	OR State = 'MH'
+
+	--UC7
+select COUNT(FirstName) 
+	From AddressBookTable 
+	Where City = 'MUMBAI' 
+
+	--UC8
+select firstname,city
+	from AddressBookTable
+	order by firstname ASC
