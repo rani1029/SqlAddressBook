@@ -17,3 +17,15 @@ CREATE TABLE  AddressBookTable
 	PhoneNumber varchar(10),
 	email varchar(30)	
 	)
+	--uc-3 
+
+	INSERT INTO AddressBookTable(FirstName,lastname,address,city, state,zipcode,phonenumber,email)
+VALUES
+('RANI', 'GUPTA', 'lINKK ROAD', 'MUMBAI', 'MAHARASHTRA', '387801', '1234567890', 'email@exmple.com'),
+('ROHIT', 'KUUMAR', 'CP', 'DELHI', 'DELHI', '478601', '1484567891', 'emailid1@gmail.com'),
+('VIKASH', 'SHARMA', 'RD', 'MUMBAI', 'MH', '580001', '8764567892', 'emaiigl2@gmail.com'),
+('RISHI', 'DEV', 'RD', 'LUCKNOW', 'UP', '688001', '1234567893', 'email3@exmple.com'),
+('RAHUL', 'SHARMA', 'RD', 'HYD', 'TELANGNA', '975601', '1234765789', 'email4@exmple.com');
+
+select * from AddressBookTable;
+
