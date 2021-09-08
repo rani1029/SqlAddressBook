@@ -29,3 +29,6 @@ VALUES
 
 select * from AddressBookTable;
 
+update AddressBookTable 
+	set phonenumber = '9754368765' 
+	where FirstName = 'RANI' 
