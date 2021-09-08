@@ -52,3 +52,19 @@ select COUNT(FirstName)
 select firstname,city
 	from AddressBookTable
 	order by firstname ASC
+
+	--UC9
+	ALTER TABLE AddressBookTable ADD Type VARCHAR(50)
+
+	UPDATE AddressBookTable SET Type = 'Famiy' WHERE FirstName='RANI' OR 
+	FirstName = 'RISHI'
+	OR FirstName='RAHUL'
+
+	UPDATE AddressBookTable SET Type = 'Friend' WHERE FirstName='VIKASH'
+
+	--ADD NAME OF ADDRESS BOOK
+	ALTER TABLE AddressBookTable ADD Name VARCHAR(50)
+	UPDATE AddressBookTable SET Name = 'ad1' WHERE FirstName='RANI' 
+	UPDATE AddressBookTable SET Name = 'ad2' WHERE FirstName='RAHUL'
+	UPDATE AddressBookTable SET Name = 'ad3' WHERE FirstName='VIKASH' 
+	UPDATE AddressBookTable SET Name = 'ad4' WHERE FirstName='RISHI'
