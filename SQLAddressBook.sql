@@ -32,3 +32,7 @@ select * from AddressBookTable;
 update AddressBookTable 
 	set phonenumber = '9754368765' 
 	where FirstName = 'RANI' 
+
+	--UC-5
+	delete from AddressBookTable 
+	where FirstName = 'ROHIT'
